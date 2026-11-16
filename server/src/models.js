@@ -15,7 +15,7 @@ export const User = model('User', new Schema({
 
 // ---------- Settings (single document) ----------
 export const Settings = model('Settings', new Schema({
-  shopName: { type: String, default: 'The 8 Pool Gaming Zone' },
+  shopName: { type: String, default: 'SnookerKhelo' },
   address: { type: String, default: '' },
   phone: { type: String, default: '' },
   upiId: { type: String, default: '', trim: true },

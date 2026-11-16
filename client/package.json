@@ -1,5 +1,5 @@
 {
-  "name": "snooker-client",
+  "name": "snookerkhelo-client",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -14,8 +14,7 @@
     "qrcode": "^1.5.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.28.0",
-    "snooker-parlour-system": "file:.."
+    "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",

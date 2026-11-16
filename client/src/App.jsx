@@ -30,7 +30,7 @@ function Shell({ children }) {
   return (
     <div className="app">
       <aside className="sidebar">
-        <div className="brand"><CueBall /><span className="brand-text">{settings.shopName}<small>Parlour Manager</small></span></div>
+        <div className="brand"><CueBall /><span className="brand-text">{settings.shopName}<small>SnookerKhelo</small></span></div>
         <nav>
           {links.map(([to, label, icon]) => <NavLink key={to} to={to} end={to === '/'}><Icon name={icon} />{label}</NavLink>)}
         </nav>

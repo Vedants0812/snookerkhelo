@@ -1,5 +1,5 @@
 {
-  "name": "snooker-server",
+  "name": "snookerkhelo-server",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -17,8 +17,7 @@
     "express-rate-limit": "^7.4.1",
     "helmet": "^8.0.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.8.0",
-    "snooker-parlour-system": "file:.."
+    "mongoose": "^8.8.0"
   },
   "devDependencies": {
     "mongodb-memory-server": "^10.1.2"

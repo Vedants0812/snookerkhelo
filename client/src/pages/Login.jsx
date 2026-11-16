@@ -37,7 +37,7 @@ export default function Login({ onDone }) {
       </div>
 
       <form className="card login-card" onSubmit={submit}>
-        <div className="brand big"><CueBall /><span>Parlour Manager</span></div>
+        <div className="brand big"><CueBall /><span>Snooker<em>Khelo</em></span></div>
         <p className="muted">Sign in to manage tables, billing and players.</p>
         {DEMO && (
           <>

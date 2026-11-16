@@ -1,4 +1,4 @@
-# Parlour Manager — The 8 Pool Gaming Zone
+# SnookerKhelo — snooker & pool parlour manager
 
 Snooker / pool parlour management system (MongoDB, Express, React, Node).
 

@@ -4,7 +4,7 @@
 // All data is SAMPLE data, kept only in this browser (localStorage). "Reset demo" restores it.
 import { computeBill, isPaused, r2 } from '../../../shared/billing.js';
 
-const KEY = 'parlour-demo-db-v1';
+const KEY = 'snookerkhelo-demo-db-v1';
 const IST = 330 * 60000;
 const PAY_METHODS = ['cash', 'upi', 'card'];
 
@@ -59,7 +59,7 @@ function seed() {
     users: [], tables: [], products: [], players: [], passTxns: [], sessions: [], bills: [],
     tournaments: [], waitlist: [], counters: { bill: 0 },
     settings: {
-      _id: oid(), shopName: 'The 8 Pool Gaming Zone', address: '', phone: '', upiId: '', upiPayeeName: '',
+      _id: oid(), shopName: 'SnookerKhelo Arena (demo)', address: '', phone: '', upiId: '', upiPayeeName: '',
       googleReviewLink: '', googleMapsLink: '', receiptFooter: 'Thank you! Visit again.',
       billing: { roundToMinutes: 1, minMinutes: 0, roundTotal: true, dayStartHour: 0 },
       features: { playerPass: true, waitlist: true },

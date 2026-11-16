@@ -1,10 +1,10 @@
 {
-  "name": "snooker-parlour-system",
+  "name": "snookerkhelo",
   "version": "1.0.0",
   "private": true,
-  "description": "Snooker / pool parlour management system (MERN): table timers, billing, UPI QR, players, tournaments, reports",
+  "description": "SnookerKhelo: snooker / pool parlour management system (MERN): table timers, billing, UPI QR, players, tournaments, reports",
   "scripts": {
-    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
     "dev": "concurrently -n api,web -c green,cyan \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
     "build": "npm run build --prefix client",
     "start": "npm start --prefix server",

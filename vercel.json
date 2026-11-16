@@ -1,8 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "npm install --prefix client",
-  "buildCommand": "npm run build:demo --prefix client",
+  "installCommand": "cd client && npm install",
+  "buildCommand": "cd client && npm run build:demo",
   "outputDirectory": "client/dist",
   "framework": null,
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 /* =====================================================================
-   Parlour Manager — "arena" theme
+   SnookerKhelo — "arena" theme
    Dark hall, lamp-lit tables, neon felt. Built for a busy counter:
    big numbers, clear states (free / running / paused), thumb-sized buttons.
    ===================================================================== */
@@ -438,3 +438,4 @@ button.match:hover { border-color: var(--felt); box-shadow: var(--glow-felt); }
 /* ---------- crash screen ---------- */
 .crash { min-height: 70vh; display: grid; place-items: center; text-align: center; padding: 24px; }
 .crash .card { max-width: 420px; display: flex; flex-direction: column; gap: 12px; align-items: center; }
+.brand.big em { font-style: normal; color: var(--felt); text-shadow: 0 0 16px rgba(31, 214, 127, .5); }
